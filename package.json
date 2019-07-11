@@ -1,0 +1,20 @@
+{
+	"name": "@appfarm/stackdriver-express-logger",
+	"version": "0.0.1",
+	"description": "Middleware for express that will output stackdriver compatible logs",
+	"main": "index.js",
+	"repository": "https://github.com/appfarm-io/stackdriver-express-logger",
+	"author": "Ole Johnny Borgersen",
+	"license": "MIT",
+	"keywords": [
+		"stackdriver",
+		"express"
+	],
+	"dependencies": {
+		"on-finished": "^2.3.0",
+		"on-headers": "^1.0.2"
+	},
+	"scripts": {
+		"publish": "npm publish --access public"
+	}
+}
